@@ -1,12 +1,1 @@
-# WordPress Core and Database
-wp-admin/
-wp-includes/
-wp-content/plugins/
-wp-content/themes/
-wp-content/uploads/
-wp-config.php
-*.sql
-*.sqlite
 
-# Keep our custom files!
-!wp-content/themes/hello-elementor-child/
