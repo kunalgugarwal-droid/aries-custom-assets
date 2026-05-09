@@ -1,0 +1,637 @@
+{
+    "version": "0.4",
+    "title": "Aries Homepage Redesign",
+    "type": "page",
+    "content": [
+        {
+            "id": "hero_section",
+            "settings": {
+                "content_width": "full",
+                "background_background": "classic",
+                "background_image": {
+                    "url": "https://www.ariesprotectiveservices.com/uploads/1/3/3/5/133596827/background-images/1792451368.jpg",
+                    "id": ""
+                },
+                "background_overlay_background": "classic",
+                "background_overlay_color": "rgba(0,0,0,0.6)",
+                "padding": {
+                    "unit": "px",
+                    "top": "150",
+                    "right": "20",
+                    "bottom": "150",
+                    "left": "20",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "hero_column",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "hero_heading",
+                            "settings": {
+                                "title": "Aries Protective Services values there clients and employees.",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Inter",
+                                "typography_font_weight": "700",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 54
+                                },
+                                "title_color": "#ffffff",
+                                "align": "center"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "hero_subheading",
+                            "settings": {
+                                "title": "Providing professional and reliable service with ex-law enforcement officers and veterans.",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Inter",
+                                "typography_font_weight": "400",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 20
+                                },
+                                "title_color": "#f0f0f0",
+                                "align": "center"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "hero_buttons_section",
+                            "settings": {
+                                "content_width": "boxed",
+                                "gap": "extended"
+                            },
+                            "elements": [
+                                {
+                                    "id": "hero_button_col_1",
+                                    "settings": {
+                                        "_column_size": 50,
+                                        "_inline_size": 50
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "hero_btn_1",
+                                            "settings": {
+                                                "text": "Our Services",
+                                                "link": {
+                                                    "url": "/services"
+                                                },
+                                                "align": "right",
+                                                "background_color": "#d32f2f",
+                                                "border_radius": {
+                                                    "unit": "px",
+                                                    "top": 4,
+                                                    "right": 4,
+                                                    "bottom": 4,
+                                                    "left": 4,
+                                                    "isLinked": true
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "button",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                },
+                                {
+                                    "id": "hero_button_col_2",
+                                    "settings": {
+                                        "_column_size": 50,
+                                        "_inline_size": 50
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "hero_btn_2",
+                                            "settings": {
+                                                "text": "Contact Us",
+                                                "link": {
+                                                    "url": "/contact-us"
+                                                },
+                                                "align": "left",
+                                                "background_color": "#1a1a1a",
+                                                "border_radius": {
+                                                    "unit": "px",
+                                                    "top": 4,
+                                                    "right": 4,
+                                                    "bottom": 4,
+                                                    "left": 4,
+                                                    "isLinked": true
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "button",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "services_section",
+            "settings": {
+                "padding": {
+                    "unit": "px",
+                    "top": "80",
+                    "right": "0",
+                    "bottom": "80",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#f9f9f9"
+            },
+            "elements": [
+                {
+                    "id": "services_container",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "services_heading",
+                            "settings": {
+                                "title": "Scalable, End-to-End Solutions",
+                                "align": "center",
+                                "typography_typography": "custom",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 40
+                                },
+                                "typography_font_weight": "700"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "services_grid",
+                            "settings": {
+                                "content_width": "boxed",
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "40",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "service_col_1",
+                                    "settings": {
+                                        "_column_size": 33.33
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "service_box_1",
+                                            "settings": {
+                                                "title_text": "Residential Security",
+                                                "description_text": "Burglary, arson, vandalism - all are legitimate concerns of any residential property. Even the most vigilant property managers can be susceptible...",
+                                                "image": {
+                                                    "url": "https://www.ariesprotectiveservices.com/uploads/1/3/3/5/133596827/residential-security_orig.png"
+                                                },
+                                                "image_size": "full",
+                                                "position": "top",
+                                                "view": "default",
+                                                "title_color": "#1a1a1a",
+                                                "description_color": "#555555"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image-box",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                },
+                                {
+                                    "id": "service_col_2",
+                                    "settings": {
+                                        "_column_size": 33.33
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "service_box_2",
+                                            "settings": {
+                                                "title_text": "Executive Protection",
+                                                "description_text": "We provide specialized Executive Protection for corporate leaders and high-profile individuals...",
+                                                "image": {
+                                                    "url": "https://www.ariesprotectiveservices.com/uploads/1/3/3/5/133596827/executiveprotection_orig.png"
+                                                },
+                                                "image_size": "full",
+                                                "position": "top",
+                                                "view": "default",
+                                                "title_color": "#1a1a1a",
+                                                "description_color": "#555555"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image-box",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                },
+                                {
+                                    "id": "service_col_3",
+                                    "settings": {
+                                        "_column_size": 33.33
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "service_box_3",
+                                            "settings": {
+                                                "title_text": "Bodyguard",
+                                                "description_text": "Personalized bodyguard services for those requiring close protection in various environments.",
+                                                "image": {
+                                                    "url": "https://www.ariesprotectiveservices.com/uploads/1/3/3/5/133596827/bodyguard_orig.png"
+                                                },
+                                                "image_size": "full",
+                                                "position": "top",
+                                                "view": "default",
+                                                "title_color": "#1a1a1a",
+                                                "description_color": "#555555"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image-box",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        },
+                        {
+                            "id": "services_grid_row_2",
+                            "settings": {
+                                "content_width": "boxed",
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "40",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "service_col_4",
+                                    "settings": {
+                                        "_column_size": 33.33
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "service_box_4",
+                                            "settings": {
+                                                "title_text": "Fire Watch",
+                                                "description_text": "Ensuring safety and compliance with trained fire watch personnel for commercial properties.",
+                                                "image": {
+                                                    "url": "https://www.ariesprotectiveservices.com/uploads/1/3/3/5/133596827/firewatch-security_orig.png"
+                                                },
+                                                "image_size": "full",
+                                                "position": "top",
+                                                "view": "default",
+                                                "title_color": "#1a1a1a",
+                                                "description_color": "#555555"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image-box",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                },
+                                {
+                                    "id": "service_col_5",
+                                    "settings": {
+                                        "_column_size": 33.33
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "service_box_5",
+                                            "settings": {
+                                                "title_text": "Events Security",
+                                                "description_text": "Comprehensive crowd control and event security services tailored for your specific venue.",
+                                                "image": {
+                                                    "url": "https://www.ariesprotectiveservices.com/uploads/1/3/3/5/133596827/events-security1_orig.png"
+                                                },
+                                                "image_size": "full",
+                                                "position": "top",
+                                                "view": "default",
+                                                "title_color": "#1a1a1a",
+                                                "description_color": "#555555"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image-box",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                },
+                                {
+                                    "id": "service_col_6",
+                                    "settings": {
+                                        "_column_size": 33.33
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "service_box_6",
+                                            "settings": {
+                                                "title_text": "Emergency Response Security",
+                                                "description_text": "Investigate and prepare reports on accidents, incidents, and suspicious activities; maintain written logs.",
+                                                "image": {
+                                                    "url": "https://www.ariesprotectiveservices.com/uploads/1/3/3/5/133596827/emergency-response_orig.png"
+                                                },
+                                                "image_size": "full",
+                                                "position": "top",
+                                                "view": "default",
+                                                "title_color": "#1a1a1a",
+                                                "description_color": "#555555"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image-box",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "about_section",
+            "settings": {
+                "content_width": "boxed",
+                "padding": {
+                    "unit": "px",
+                    "top": "80",
+                    "right": "0",
+                    "bottom": "80",
+                    "left": "0",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "about_col_image",
+                    "settings": {
+                        "_column_size": 50
+                    },
+                    "elements": [
+                        {
+                            "id": "about_image_widget",
+                            "settings": {
+                                "image": {
+                                    "url": "https://www.ariesprotectiveservices.com/uploads/1/3/3/5/133596827/about-us_orig.jpg"
+                                },
+                                "image_size": "large",
+                                "border_radius": {
+                                    "unit": "px",
+                                    "top": 8,
+                                    "right": 8,
+                                    "bottom": 8,
+                                    "left": 8,
+                                    "isLinked": true
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "image",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "about_col_text",
+                    "settings": {
+                        "_column_size": 50,
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "60",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "about_heading",
+                            "settings": {
+                                "title": "Why Choose Us",
+                                "typography_typography": "custom",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 40
+                                },
+                                "typography_font_weight": "700",
+                                "title_color": "#1a1a1a",
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "20",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "about_text",
+                            "settings": {
+                                "editor": "<p>We strive to be the industry leader in security services; providing innovative and unique solutions... established on the basis of mutual respect, honesty, and diligence.</p>",
+                                "typography_typography": "custom",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 18
+                                },
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.6
+                                },
+                                "text_color": "#555555"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "text-editor",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "cta_section",
+            "settings": {
+                "content_width": "full",
+                "background_background": "classic",
+                "background_color": "#d32f2f",
+                "padding": {
+                    "unit": "px",
+                    "top": "100",
+                    "right": "20",
+                    "bottom": "100",
+                    "left": "20",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "cta_column",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "cta_heading",
+                            "settings": {
+                                "title": "Ready to secure your peace of mind?",
+                                "align": "center",
+                                "title_color": "#ffffff",
+                                "typography_typography": "custom",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 42
+                                },
+                                "typography_font_weight": "700",
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "10",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "cta_subheading",
+                            "settings": {
+                                "title": "Contact us today at 954-727-8216",
+                                "align": "center",
+                                "title_color": "#ffffff",
+                                "typography_typography": "custom",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 24
+                                },
+                                "typography_font_weight": "400",
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "40",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "cta_button",
+                            "settings": {
+                                "text": "Request a Quote",
+                                "link": {
+                                    "url": "/contact-us"
+                                },
+                                "align": "center",
+                                "background_color": "#1a1a1a",
+                                "text_color": "#ffffff",
+                                "border_radius": {
+                                    "unit": "px",
+                                    "top": 4,
+                                    "right": 4,
+                                    "bottom": 4,
+                                    "left": 4,
+                                    "isLinked": true
+                                },
+                                "typography_typography": "custom",
+                                "typography_font_weight": "600",
+                                "typography_text_transform": "uppercase",
+                                "content_classes": "elementor-size-lg"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "button",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ]
+}
